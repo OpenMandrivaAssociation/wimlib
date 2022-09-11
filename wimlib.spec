@@ -6,12 +6,12 @@
 
 Summary: The open source Windows Imaging (WIM) library
 Name:    %{prename}lib
-Version: 1.13.5
+Version: 1.13.6
 Release: %mkrel 1
-# Most files are licensed under LGPLv3+, a few under CC0.
+# Most files are licensed under LGPLv3+, a few under MIT.
 # According to the author, GPLv3+ kicks in when linking to libntfs-3g.
 # In theory that only applies to static linking, but let's play safe.
-License: GPLv3+ and CC0
+License: GPLv3+ and MIT
 Group:   Development/Other
 Url:     https://%{name}.net
 Source0: https://github.com/ebiggers/wimlib/archive/refs/tags/v%{version}.tar.gz
