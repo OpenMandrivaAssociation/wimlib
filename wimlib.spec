@@ -76,7 +76,7 @@ rm -r examples/!(*.c)
 %{_libdir}/lib%{prename}.so.%{major}*
 
 %files -n %{devname}
-%doc NEWS README examples
+%doc examples
 %license COPYING COPYING.GPLv3
 %{_libdir}/lib%{prename}.so
 %{_includedir}/%{name}.h
