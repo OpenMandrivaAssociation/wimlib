@@ -18,7 +18,7 @@ Url:     https://%{name}.net
 Source0: https://github.com/ebiggers/wimlib/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires: chrpath
-BuildRequires: pkgconfig(fuse)
+BuildRequires: pkgconfig(fuse3)
 BuildRequires: pkgconfig(libcrypto)
 BuildRequires: pkgconfig(libntfs-3g)
 BuildRequires: pkgconfig(libxml-2.0)
