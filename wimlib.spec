@@ -17,6 +17,11 @@ Group:   Development/Other
 Url:     https://%{name}.net
 Source0: https://github.com/ebiggers/wimlib/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: chrpath
 BuildRequires: pkgconfig(fuse3)
 BuildRequires: pkgconfig(libcrypto)
